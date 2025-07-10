@@ -36,7 +36,7 @@ const features = [
 
 const Features: React.FC = () => {
   return (
-    <section id="features" className="py-24 px-6 mx-auto bg-white/80 dark:bg-black/80 transition-colors duration-500">
+    <section id="features" className="py-24 px-6 mx-auto bg-white/70 dark:bg-zinc-950/70 transition-colors duration-500">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-900 dark:text-white">
           Platform Capabilities

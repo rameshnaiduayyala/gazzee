@@ -65,7 +65,7 @@ const Industries = () => {
     <section
       ref={ref}
       id="industries"
-      className="relative bg-white/80 dark:bg-black/70 py-24 px-6 overflow-hidden transition-colors duration-300"
+      className="relative bg-white/70 dark:bg-zinc-950/70 py-24 px-6 overflow-hidden transition-colors duration-300"
     >
       {/* PARALLAX BACKGROUND BLOBS */}
       <motion.div

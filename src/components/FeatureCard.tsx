@@ -120,7 +120,7 @@ const FeatureSection = () => {
   ];
 
   return (
-    <section className="bg-white/70 dark:bg-black/80 text-blue-900 dark:text-white py-24 px-6 transition-colors duration-500">
+    <section className="bg-white/70 dark:bg-zinc-950/70 text-blue-900 dark:text-white py-24 px-6 transition-colors duration-500">
       <div className="max-w-7xl mx-auto">
         {/* Grid Feature Cards */}
         <div className="grid md:grid-cols-3 gap-10">

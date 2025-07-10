@@ -9,12 +9,11 @@ import Footer from './components/ui/Footer'
 import Design from './components/Design'
 import FeatureSection from './components/FeatureCard'
 import Industries from './components/Industries'
-// import LiveCodeEditor from './components/ui/CodeEditor'
+import HowItWorks from './components/ui/HowItWorks'
 
 const App: React.FC = () => {
   return (
     <div className="relative text-white font-sans overflow-x-hidden">
-            {/* <LiveCodeEditor /> */}
       <Design />
       <Navbar />
       <main className="min-h-screen">
@@ -37,6 +36,7 @@ const App: React.FC = () => {
         >
           {/* <ProductDemo /> */}
           <Industries />
+          <HowItWorks />
         </motion.div>
 
         <motion.div

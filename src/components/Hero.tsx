@@ -6,7 +6,7 @@ import { PlayCircle, Mail } from 'lucide-react'
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-screen bg-white/70 dark:bg-black/70 text-neutral-800 dark:text-white overflow-hidden transition-colors duration-300 pt-15">
+    <section className="relative h-screen bg-white/70 dark:bg-zinc-950/70 text-neutral-800 dark:text-white overflow-hidden transition-colors duration-300 pt-15">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-16 h-full">
 
         {/* LEFT CONTENT */}
