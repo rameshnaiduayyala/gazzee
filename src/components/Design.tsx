@@ -2,7 +2,9 @@ import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
+import { useTheme } from "@/provider/useTheme";
 const Design = () => {
+    const { theme } = useTheme();
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadSlim(engine);
     }, []);
@@ -20,7 +22,7 @@ const Design = () => {
                 options={{
                     background: {
                         color: {
-                            value: "#0f172a",
+                            value: theme === "dark" ? "#0f172a" : "#ffffff",
                         },
                     },
                     fpsLimit: 120,
@@ -48,10 +50,10 @@ const Design = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#14e2a4",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#1469eb",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
