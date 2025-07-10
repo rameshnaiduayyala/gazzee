@@ -9,10 +9,12 @@ import Footer from './components/ui/Footer'
 import Design from './components/Design'
 import FeatureSection from './components/FeatureCard'
 import Industries from './components/Industries'
+// import LiveCodeEditor from './components/ui/CodeEditor'
 
 const App: React.FC = () => {
   return (
     <div className="relative text-white font-sans overflow-x-hidden">
+            {/* <LiveCodeEditor /> */}
       <Design />
       <Navbar />
       <main className="min-h-screen">

@@ -1,15 +1,17 @@
-import React from 'react'
-import { MapPin, Mail, Phone } from 'lucide-react'
+import React from 'react';
+import { MapPin, Mail, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
-    <footer id='contact' className="bg-black/85 text-white border-t border-white/10 pt-20 pb-8 px-6 overflow-hidden">
-
+    <footer
+      id="contact"
+      className="bg-emerald-900 dark:bg-neutral-900 text-white dark:text-neutral-100 
+                 border-t border-white/10 dark:border-white/5 pt-20 pb-8 px-6 overflow-hidden transition-colors duration-500"
+    >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 z-10 relative">
         {/* Brand & Description */}
         <div>
           <div className="flex items-center space-x-3 mb-4">
-            {/* Replace with logo if needed */}
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg shadow-md">
               GZ
             </div>
@@ -17,16 +19,17 @@ const Footer: React.FC = () => {
               GAZZEE
             </span>
           </div>
-          <p className="text-white/60 text-sm leading-relaxed">
-            Empowering machines to see, understand, and act.<br />
+          <p className="text-white/60 dark:text-neutral-400 text-sm leading-relaxed">
+            Empowering machines to see, understand, and act.
+            <br />
             Vision AI for a smarter, automated world.
           </p>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h4 className="font-semibold mb-4 text-white/90 tracking-wide">Quick Links</h4>
-          <ul className="space-y-2 text-white/60 text-sm">
+          <h4 className="font-semibold mb-4 text-white/90 dark:text-white tracking-wide">Quick Links</h4>
+          <ul className="space-y-2 text-white/60 dark:text-neutral-400 text-sm">
             {[
               { label: 'What We Do', href: '#services' },
               { label: 'Features', href: '#features' },
@@ -47,8 +50,8 @@ const Footer: React.FC = () => {
 
         {/* Offices */}
         <div>
-          <h4 className="font-semibold mb-4 text-white/90 tracking-wide">Office Address</h4>
-          <div className="text-white/60 text-sm space-y-4">
+          <h4 className="font-semibold mb-4 text-white/90 dark:text-white tracking-wide">Office Address</h4>
+          <div className="text-white/60 dark:text-neutral-400 text-sm space-y-4">
             <div className="flex gap-2 items-start">
               <MapPin size={18} className="mt-0.5 text-cyan-500" />
               <div>
@@ -60,7 +63,7 @@ const Footer: React.FC = () => {
                 <br />
                 Madhapur,
                 <br />
-                Hyderabd, Telangana 500081
+                Hyderabad, Telangana 500081
               </div>
             </div>
             <div className="flex gap-2 items-start">
@@ -78,12 +81,12 @@ const Footer: React.FC = () => {
 
         {/* Contact */}
         <div>
-          <h4 className="font-semibold mb-4 text-white/90 tracking-wide">Contact</h4>
-          <div className="text-white/60 text-sm space-y-3">
+          <h4 className="font-semibold mb-4 text-white/90 dark:text-white tracking-wide">Contact</h4>
+          <div className="text-white/60 dark:text-neutral-400 text-sm space-y-3">
             <div className="flex items-center gap-2 group">
               <Mail size={18} className="text-cyan-500 group-hover:scale-110 transition" />
               <a
-                href="mailto:contact@aivision.tech"
+                href="mailto:ramesh.ayyala@digitelescope.com"
                 className="hover:text-cyan-400 transition duration-200"
               >
                 ramesh.ayyala@digitelescope.com
@@ -100,11 +103,11 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom line */}
-      <div className="mt-16 border-t border-white/10 pt-6 text-center text-white/40 text-xs z-10 relative">
+      <div className="mt-16 border-t border-white/10 dark:border-white/5 pt-6 text-center text-white/40 dark:text-white/30 text-xs z-10 relative">
         © {new Date().getFullYear()} Gazzee. All rights reserved.
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
