@@ -10,6 +10,7 @@ import Design from './components/Design'
 import FeatureSection from './components/FeatureCard'
 import Industries from './components/Industries'
 import HowItWorks from './components/ui/HowItWorks'
+import ProductShowcase from './components/ui/ProductShowcase'
 
 const App: React.FC = () => {
   return (
@@ -36,6 +37,8 @@ const App: React.FC = () => {
         >
           {/* <ProductDemo /> */}
           <Industries />
+          <ProductShowcase />
+
           <HowItWorks />
         </motion.div>
 

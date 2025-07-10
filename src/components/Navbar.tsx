@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
             </AnimatePresence>
           </div>
 
-          <a href="#pricing" className="hover:text-blue-500 dark:hover:text-cyan-400 transition-colors">Pricing</a>
+          <a href="#usecases" className="hover:text-blue-500 dark:hover:text-cyan-400 transition-colors">Our use cases</a>
           <a href="#contact" className="hover:text-blue-500 dark:hover:text-cyan-400 transition-colors">Contact</a>
 
           {/* Theme Toggle */}
