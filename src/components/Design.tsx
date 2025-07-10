@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
-import Particles from "react-particles";
+import { Particles } from 'react-tsparticles';
 import { loadSlim } from "tsparticles-slim";
 import { useTheme } from "@/provider/useTheme";
 const Design = () => {
