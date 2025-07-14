@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import logisticsImg from '@/assets/industries/logistics.jpg';
+import { Badge } from "../ui/badge";
 
 
 const industryData: Record<string, any> = {
