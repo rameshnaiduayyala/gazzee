@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { motion } from 'framer-motion'
-import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Features from './components/Features'
@@ -11,12 +10,13 @@ import FeatureSection from './components/FeatureCard'
 import Industries from './components/Industries'
 import HowItWorks from './components/ui/HowItWorks'
 import ProductShowcase from './components/ui/ProductShowcase'
+import Navbar from './components/Navbar'
 
 const App: React.FC = () => {
   return (
     <div className="relative text-white font-sans overflow-x-hidden">
-      <Design />
       <Navbar />
+      <Design />
       <main className="min-h-screen">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

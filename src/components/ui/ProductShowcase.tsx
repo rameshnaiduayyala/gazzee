@@ -123,7 +123,7 @@ const ProductShowcase: React.FC = () => {
                       />
                     </div>
                     <div className="p-5 text-left">
-                      <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+                      <h3 className="text-xl font-semibold text-blue-900 dark:text-amber-400">
                         {p.name}
                       </h3>
                       <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-snug">
